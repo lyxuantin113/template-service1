@@ -1,0 +1,74 @@
+/**
+* MEDIA 
+*/
+/* Desktop lớn (Widescreen) */
+@media screen and (max-width: 1921px) {
+    /* CSS cho màn hình <= 1920px */
+}
+
+/* Desktop thường / Laptop lớn */
+@media screen and (max-width: 1441px) {
+    /* CSS cho màn hình <= 1440px */
+}
+
+/* Laptop nhỏ / Tablet landscape lớn */
+@media screen and (max-width: 1201px) {
+    /* CSS cho màn hình <= 1200px */
+}
+
+/* Nest hub */
+@media screen and (max-width: 1025px) {
+
+    /* CSS cho màn hình <= 1025px */
+
+}
+
+/* Tablet landscape / Laptop nhỏ */
+@media screen and (max-width: 993px) {
+    /* CSS cho màn hình <= 992px */
+}
+
+/* Ipad Air */
+@media screen and (max-width: 821px) {
+
+    /* CSS cho màn hình <= 821px */
+
+}
+
+/* Tablet portrait lớn / Mobile landscape */
+@media screen and (max-width: 769px) {
+
+    /* CSS cho màn hình <= 768px */
+
+}
+
+/* Mobile landscape / Phablet */
+@media screen and (max-width: 577px) {
+
+    /* CSS cho màn hình <= 576px */
+
+}
+
+/* Mobile IP 14Pro Max */
+@media screen and (max-width: 431px) {
+
+    /* CSS cho màn hình <= 431px */
+
+}
+
+/* Mobile portrait lớn (iPhone 6/7/8 Plus) */
+@media screen and (max-width: 415px) {
+
+    /* CSS cho màn hình <= 414px */
+
+}
+
+/* Mobile portrait trung bình (iPhone X/11 Pro) */
+@media screen and (max-width: 391px) {
+
+    /* CSS cho màn hình <= 390px */
+
+}
+
+/* Mobile portrait nhỏ (iPhone SE, Android nhỏ) */
+@media screen and (max-width: 376px) {}

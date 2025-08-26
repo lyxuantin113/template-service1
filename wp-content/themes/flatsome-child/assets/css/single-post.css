@@ -1,0 +1,188 @@
+/* Content */
+img {
+    width: 100%;
+    border-radius: .625rem;
+}
+
+blockquote {
+    padding: 30px;
+    background-color: #f4f4f4;
+    border-left: 5px solid var(--fs-color-primary);
+
+    border-radius: .5rem;
+}
+
+blockquote cite {
+    margin-top: 15px;
+    padding-top: 20px;
+    display: block;
+    position: relative;
+    line-height: 18px;
+    color: var(--title-color);
+}
+
+blockquote cite:before {
+    content: "";
+    position: absolute;
+    width: 5%;
+    height: 4px;
+    background: var(--fs-color-primary);
+    top: 0;
+    left: 0;
+}
+
+/*  */
+
+.entry-meta-below-thumb {
+    display: flex;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.entry-meta-below-thumb span,
+.entry-meta-below-thumb p,
+.entry-meta-below-thumb a,
+.entry-meta-below-thumb i::before {
+    color: var(--title-color) !important;
+}
+
+.entry-image img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    max-height: 80vh;
+}
+
+.entry-title {
+    margin: 0;
+}
+
+.entry-category,
+.entry-meta {
+    display: none;
+}
+
+/* Navigation */
+.next-prev-nav a {
+    color: var(--title-color);
+}
+
+.next-prev-nav a:hover {
+    color: var(--fs-color-primary);
+}
+
+/* Comment */
+div#content .article-inner,
+.comment-respond {
+    display: block;
+    overflow: hidden;
+    padding: 1rem;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 0px 12px 0px rgb(0 7 45 / 10%);
+}
+
+.custom-comment-form .form-group {
+    margin-bottom: 20px;
+}
+
+.custom-comment-form input.form-control,
+.custom-comment-form textarea.form-control {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+    background-color: #fcfcff;
+}
+
+.custom-comment-form .btn.btn-primary {
+    background-color: #fff;
+    color: var(--fs-color-primary);
+    border: 2px solid var(--fs-color-primary);
+    padding: .5rem 1.5rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.custom-comment-form .btn.btn-primary:hover {
+    background-color: var(--fs-color-primary);
+}
+
+/**
+* MEDIA 
+*/
+/* Desktop lớn (Widescreen) */
+@media screen and (max-width: 1921px) {
+    /* CSS cho màn hình <= 1920px */
+}
+
+/* Desktop thường / Laptop lớn */
+@media screen and (max-width: 1441px) {
+    /* CSS cho màn hình <= 1440px */
+}
+
+/* Laptop nhỏ / Tablet landscape lớn */
+@media screen and (max-width: 1201px) {
+    /* CSS cho màn hình <= 1200px */
+}
+
+/* Nest hub */
+@media screen and (max-width: 1025px) {
+
+    /* CSS cho màn hình <= 1025px */
+
+}
+
+/* Tablet landscape / Laptop nhỏ */
+@media screen and (max-width: 993px) {
+    /* CSS cho màn hình <= 992px */
+}
+
+/* Ipad Air */
+@media screen and (max-width: 821px) {
+
+    /* CSS cho màn hình <= 821px */
+
+}
+
+/* Tablet portrait lớn / Mobile landscape */
+@media screen and (max-width: 769px) {
+
+    /* CSS cho màn hình <= 768px */
+
+}
+
+/* Mobile landscape / Phablet */
+@media screen and (max-width: 577px) {
+
+    /* CSS cho màn hình <= 576px */
+
+}
+
+/* Mobile IP 14Pro Max */
+@media screen and (max-width: 431px) {
+
+    /* CSS cho màn hình <= 431px */
+
+}
+
+/* Mobile portrait lớn (iPhone 6/7/8 Plus) */
+@media screen and (max-width: 415px) {
+
+    /* CSS cho màn hình <= 414px */
+
+}
+
+/* Mobile portrait trung bình (iPhone X/11 Pro) */
+@media screen and (max-width: 391px) {
+
+    /* CSS cho màn hình <= 390px */
+
+}
+
+/* Mobile portrait nhỏ (iPhone SE, Android nhỏ) */
+@media screen and (max-width: 376px) {}

@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/flaticon/flaticon.eot");
+    src: url("../fonts/flaticon/flaticon.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/flaticon/flaticon.woff") format("woff"),
+        url("../fonts/flaticon/flaticon.ttf") format("truetype"),
+        url("../fonts/flaticon/flaticon.svg#flaticon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: "Flaticon";
+        src: url("../fonts/flaticon.svg#Flaticon") format("svg");
+    }
+}
+
+[class^="flaticon-"],
+[class*=" flaticon-"] {
+    display: inline-flex;
+}
+
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.flaticon-icon-42:before {
+    content: "\e929";
+}
+
+.flaticon-icon-43:before {
+    content: "\e92a";
+}
+
+.flaticon-icon-33:before {
+    content: "\e920";
+}
+
+.flaticon-icon-34:before {
+    content: "\e921";
+}
+
+.flaticon-icon-36:before {
+    content: "\e923";
+}
+
+.flaticon-icon-37:before {
+    content: "\e924";
+}
+
+.flaticon-icon-38:before {
+    content: "\e925";
+}
+
+.flaticon-icon-39:before {
+    content: "\e926";
+}
+
+.flaticon-icon-40:before {
+    content: "\e927";
+}
+
+.flaticon-icon-22:before {
+    content: "\e915";
+}
+
+.flaticon-icon-1:before {
+    content: "\e900";
+}
+
+.flaticon-icon-2:before {
+    content: "\e901";
+}
+
+.flaticon-icon-3:before {
+    content: "\e902";
+}
+
+.flaticon-icon-4:before {
+    content: "\e903";
+}
+
+.flaticon-icon-5:before {
+    content: "\e904";
+}
+
+.flaticon-icon-6:before {
+    content: "\e905";
+}
+
+.flaticon-icon-7:before {
+    content: "\e906";
+}
+
+.flaticon-icon-8:before {
+    content: "\e907";
+}
+
+.flaticon-icon-10:before {
+    content: "\e909";
+}
+
+.flaticon-icon-11:before {
+    content: "\e90a";
+}
+
+.flaticon-icon-12:before {
+    content: "\e90b";
+}
+
+.flaticon-icon-13:before {
+    content: "\e90c";
+}
+
+.flaticon-icon-14:before {
+    content: "\e90d";
+}
+
+.flaticon-icon-15:before {
+    content: "\e90e";
+}
+
+.flaticon-icon-16:before {
+    content: "\e90f";
+}
+
+.flaticon-icon-18:before {
+    content: "\e911";
+}
+
+.flaticon-icon-20:before {
+    content: "\e913";
+}
+
+.flaticon-icon-21:before {
+    content: "\e914";
+}
+
+.flaticon-icon-23:before {
+    content: "\e916";
+}
+
+.flaticon-icon-24:before {
+    content: "\e917";
+}
+
+.flaticon-icon-25:before {
+    content: "\e918";
+}
+
+.flaticon-icon-27:before {
+    content: "\e91a";
+}
+
+.flaticon-icon-28:before {
+    content: "\e91b";
+}
+
+.flaticon-icon-30:before {
+    content: "\e91d";
+}
+
+.flaticon-icon-31:before {
+    content: "\e91e";
+}
+
+.flaticon-icon-32:before {
+    content: "\e91f";
+}

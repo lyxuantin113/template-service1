@@ -1,0 +1,533 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+:root {
+    --body-font: "Inter", sans-serif;
+    --theme-color: var(--fs-color-primary);
+    --white-color: var(--white-color);
+    --black-color: var(--fs-experimental-link-color);
+    --primary-blur: rgba(var(--fs-color-primary), 0.8);
+}
+
+/* =================== */
+/* ==== Header BAR === */
+/* =================== */
+
+#masthead .header-inner {
+    gap: .5rem;
+    padding-right: 3.125rem !important;
+}
+
+#masthead .header-inner>div>ul.header-nav-main {
+    gap: .5rem;
+}
+
+#masthead .header-inner>div>ul.header-nav-main>li.current-menu-item>a,
+#masthead .header-inner>div>ul.header-nav-main>li.current-menu-item>a>i::before {
+    color: var(--fs-color-secondary);
+}
+
+.header-main .nav>li>a {
+    font-size: 1rem;
+}
+
+.header-main .nav>li:hover>a,
+.header-main .nav>li:hover>a>i::before {
+    color: var(--fs-color-secondary);
+}
+
+/* =================== */
+/* ===== TOP BAR ===== */
+/* =================== */
+#top-bar .flex-row.container {
+    border-bottom: 1px solid #ccc;
+    padding: .5rem 3.125rem 0 1rem !important;
+}
+
+#top-bar .flex-col.hide-for-medium.flex-right {
+    width: 10%;
+}
+
+.phone-contact-box {
+    display: flex;
+    align-items: center;
+}
+
+.phone-contact-box .phone-contact-box__left {
+    background-color: var(--fs-color-primary);
+    width: 3.125rem;
+    min-width: 3.125rem;
+    aspect-ratio: 1;
+    font-size: 1.25rem;
+    color: #fff;
+    margin-right: .5rem;
+    border-radius: 50%;
+    box-shadow: 0 0 0px 5px var(--fs-color-primary-blur);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.phone-contact-box svg {
+    position: absolute;
+    width: 1.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-links ul {
+    gap: 0 !important;
+    list-style-type: none;
+}
+
+.header-links ul>li {
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.header-links li>i::before {
+    font-size: 1.125rem;
+    display: inline-block;
+    width: 1.375rem;
+    height: 1.375rem;
+    line-height: 1.25rem;
+    text-align: center;
+}
+
+.header-links li a {
+    font-family: var(--body-font);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: .5rem;
+}
+
+#logo {
+    background: var(--fs-experimental-link-color);
+    height: 100%;
+    padding: 1.25rem;
+}
+
+/* =================== */
+/* ==== Accordion ==== */
+/* =================== */
+.custom-accordion {
+    padding: 0;
+    background: transparent;
+    border-radius: .625rem;
+}
+
+.accordion-title {
+    border-top: none !important;
+    padding: .25rem .5rem;
+}
+
+.accordion-title span {
+    padding-right: 2.5rem;
+    display: block;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--fs-color-primary);
+}
+
+.accordion-title.active {
+    background-color: #fff;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.accordion-item {
+    background: #fff;
+    border-bottom: 1px solid var(--border-color);
+    box-shadow: none;
+    padding: .75rem .75rem .75rem 1.875rem;
+    min-height: 70px;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+}
+
+.accordion-inner {
+    padding: 1rem .5rem;
+}
+
+.accordion-inner p {
+    margin-bottom: 0;
+}
+
+.custom-accordion .toggle {
+    left: auto;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.custom-accordion .toggle i::before {
+    color: var(--fs-color-primary);
+    font-size: 1.25rem;
+}
+
+/* ============== */
+/* == Reviews === */
+/* ============== */
+.mm-blog-swiper {
+    padding-bottom: 3rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.mm-blog-swiper .swiper-pagination-bullet {
+    margin: 0 .5rem !important;
+    width: 8px;
+    height: 8px;
+    border-radius: 9999px;
+    border: none;
+    background-color: var(--theme-color);
+    transition: all ease 0.4s;
+    position: relative;
+    opacity: 1 !important;
+}
+
+.mm-blog-swiper .swiper-pagination-bullet.swiper-pagination-bullet-active::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 1px solid var(--theme-color);
+    border-radius: 50%;
+    -webkit-transition: all ease 0.4s;
+    transition: all ease 0.4s;
+    opacity: 1;
+}
+
+/* News */
+.mm-blog-swiper {
+    --primary: var(--fs-color-primary, #0f5b5f);
+}
+
+.mm-blog-card {
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .08);
+}
+
+.mm-card-media {
+    position: relative;
+}
+
+.mm-img-wrap {
+    display: block;
+}
+
+.mm-card-img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 16/10;
+    object-fit: cover;
+}
+
+.mm-img-placeholder {
+    background: #e5e7eb;
+}
+
+.mm-date-badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 3;
+    background: #fff;
+    border-radius: .125rem;
+    padding: .375rem .5rem;
+    text-align: center;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, .12);
+    line-height: 1.05;
+    font-weight: 700;
+}
+
+.mm-date-badge .d {
+    display: block;
+    font-size: 14px;
+    color: var(--white-color);
+    padding: .5rem .75rem;
+    margin-bottom: 0.5rem;
+    background-color: var(--fs-color-primary);
+    border-radius: .125rem;
+}
+
+.mm-date-badge .m {
+    display: block;
+    font-size: .875rem;
+    color: var(--black-color);
+}
+
+.mm-meta-pill {
+    position: absolute;
+    left: 1rem;
+    right: 1rem;
+    bottom: -1.125rem;
+    z-index: 3;
+    background: var(--primary);
+    color: #fff;
+    border-radius: 999px;
+    padding: .5rem .75rem;
+    display: flex;
+    gap: .75rem;
+    align-items: center;
+    box-shadow: 0 .5rem 1.125rem rgba(0, 0, 0, .18);
+}
+
+.mm-meta-pill a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.mm-meta-pill .mm-avatar img {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: block;
+}
+
+.mm-card-body {
+    padding: 22px;
+    padding-top: 30px;
+}
+
+/* chừa chỗ cho pill */
+.mm-card-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 4rem;
+    padding-bottom: 0;
+}
+
+.mm-card-title>a {
+    color: inherit;
+    text-decoration: none;
+    position: relative;
+    background-image: linear-gradient(to left, var(--fs-color-secondary), var(--fs-color-secondary));
+    background-repeat: no-repeat;
+    background-size: 0px 1px;
+    background-position: left bottom;
+    transition: 0.5s ease-in-out;
+}
+
+.mm-card-title:hover {
+    color: var(--fs-color-secondary);
+}
+
+.mm-card-title>a:hover {
+    background-size: 100% 1px;
+}
+
+
+
+.mm-divider {
+    border-top: 1px solid #eee;
+    margin: 8px 0 12px;
+}
+
+.mm-readmore {
+    position: relative;
+    display: inline-flex;
+    gap: 6px;
+    align-items: center;
+    text-decoration: none;
+    color: var(--black-color);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.mm-readmore::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 85%;
+    height: 1px;
+    -webkit-transition: all ease 0.4s;
+    background-color: var(--black-color);
+    transition: all ease 0.4s;
+}
+
+.mm-readmore i::before {
+    color: var(--black-color);
+}
+
+.mm-readmore:hover {
+    color: var(--fs-color-secondary);
+}
+
+.mm-readmore:hover span.arr {
+    transform: translateX(.25rem);
+}
+
+.mm-readmore:hover::before {
+    width: 50%;
+    background-color: var(--fs-color-secondary) !important;
+}
+
+.mm-readmore:hover i::before {
+    color: var(--fs-color-secondary);
+
+}
+
+@keyframes sectionShape {
+    0% {
+        left: -50%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+/* ============== */
+/* === Footer === */
+/* ============== */
+#footer .sub-title {
+    font-size: 1.25rem !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 1rem 0px;
+}
+
+#footer .form-email-wrap input {
+    padding: .875rem .875rem .875rem 1.5rem;
+    background: none;
+    margin-bottom: 0;
+}
+
+#footer .form-email-wrap button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+}
+
+#footer .button.icon {
+    background-color: #FFFFFFD1 !important;
+    font-size: 1rem !important;
+}
+
+#footer .button.icon i::before {
+    color: var(--black-color) !important;
+}
+
+#footer .form-email-wrap input,
+#footer .form-email-wrap button {
+    height: 3.5rem;
+}
+
+#footer .form-email-wrap .wpcf7-not-valid-tip {
+    margin-top: 1rem;
+}
+
+#footer .absolute-footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    width: 100%;
+    border-top: 1px solid #ffffff;
+}
+
+#footer .absolute-footer .container {
+    display: flex;
+    justify-content: center;
+}
+
+/**
+* MEDIA 
+*/
+/* Desktop lớn (Widescreen) */
+@media screen and (max-width: 1921px) {
+    /* CSS cho màn hình <= 1920px */
+}
+
+/* Desktop thường / Laptop lớn */
+@media screen and (max-width: 1441px) {
+    /* CSS cho màn hình <= 1440px */
+}
+
+/* Laptop nhỏ / Tablet landscape lớn */
+@media screen and (max-width: 1201px) {
+    /* CSS cho màn hình <= 1200px */
+}
+
+/* Nest hub */
+@media screen and (max-width: 1025px) {
+
+    /* CSS cho màn hình <= 1025px */
+
+}
+
+/* Tablet landscape / Laptop nhỏ */
+@media screen and (max-width: 993px) {
+    /* CSS cho màn hình <= 992px */
+}
+
+/* Ipad Air */
+@media screen and (max-width: 821px) {
+
+    /* CSS cho màn hình <= 821px */
+
+}
+
+/* Tablet portrait lớn / Mobile landscape */
+@media screen and (max-width: 769px) {
+
+    /* CSS cho màn hình <= 768px */
+
+}
+
+/* Mobile landscape / Phablet */
+@media screen and (max-width: 577px) {
+
+    /* CSS cho màn hình <= 576px */
+
+}
+
+/* Mobile IP 14Pro Max */
+@media screen and (max-width: 431px) {
+
+    /* CSS cho màn hình <= 431px */
+
+}
+
+/* Mobile portrait lớn (iPhone 6/7/8 Plus) */
+@media screen and (max-width: 415px) {
+
+    /* CSS cho màn hình <= 414px */
+
+}
+
+/* Mobile portrait trung bình (iPhone X/11 Pro) */
+@media screen and (max-width: 391px) {
+
+    /* CSS cho màn hình <= 390px */
+
+}
+
+/* Mobile portrait nhỏ (iPhone SE, Android nhỏ) */
+@media screen and (max-width: 376px) {}
