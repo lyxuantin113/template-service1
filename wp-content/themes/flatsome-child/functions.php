@@ -70,7 +70,7 @@ function devitech_scripts()
     }
 
     // Giới thiệu
-    if (is_page(52)) {
+    if (is_page(50)) {
         wp_enqueue_style('about-style', THEME_URL . '/assets/css/about.css', array(), '1.0.0', 'all');
     }
 
@@ -80,7 +80,7 @@ function devitech_scripts()
     }
 
     // Dịch vụ
-    if (is_page(54)) {
+    if (is_page(52)) {
         wp_enqueue_style('services-style', THEME_URL . '/assets/css/services.css', array(), '1.0.0', 'all');
     }
 

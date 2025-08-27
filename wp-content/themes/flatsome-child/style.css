@@ -212,7 +212,126 @@ Version: 3.0
     opacity: 1;
 }
 
-/* News */
+/* ===================== */
+/* === About Section === */
+/* ===================== */
+/* About Home */
+.home-counter-wrapper {
+    background: var(--fs-color-secondary);
+    padding: 1.25rem 2.25rem;
+}
+
+.home-counter-wrapper::before {
+    position: absolute;
+    content: "";
+    bottom: 1rem;
+    left: -1.125rem;
+    width: 0;
+    border-top: 1.25rem solid transparent;
+    border-bottom: 1rem solid transparent;
+    border-right: 1.25rem solid var(--fs-color-secondary);
+}
+
+/* ================= */
+/* ==== Reviews ==== */
+/* ================= */
+.cr-card {
+    background: var(--white-color);
+    /* nền nhạt */
+    border-radius: .75rem;
+    padding: 1.125rem 1.25rem;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .06);
+}
+
+/* Header: avatar + tên/role + quote ở góc phải */
+.cr-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .75rem;
+    margin-bottom: .5rem;
+}
+
+.cr-author {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    min-width: 0;
+}
+
+.cr-avatar {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 999px;
+    object-fit: cover;
+    display: block;
+}
+
+.cr-name {
+    font-weight: 800;
+    color: var(--black-color);
+    font-size: 1.25rem !important;
+    line-height: 1.2;
+}
+
+.cr-role {
+    color: var(--fs-color-primary);
+    font-weight: 600;
+    margin-top: .25rem;
+}
+
+.cr-quote {
+    flex: 0 0 auto;
+    display: grid;
+    place-items: center;
+}
+
+.cr-quote .cr-quote-img {
+    width: 1.5rem;
+    height: 1.5rem;
+    object-fit: contain;
+    display: block;
+}
+
+.cr-content {
+    margin-top: .375rem;
+}
+
+.cr-divider {
+    height: 1px;
+    background: var(--white-color);
+    margin: .875rem 0 .625rem;
+}
+
+.cr-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .75rem;
+}
+
+.cr-date {
+    color: var(--color-title);
+}
+
+.cr-stars {
+    display: flex;
+    gap: .25rem;
+}
+
+.cr-star {
+    color: var(--white-color);
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.cr-star.is-on {
+    color: #EF9917;
+}
+
+/* ============== */
+/* ==== News ==== */
+/* ============== */
 .mm-blog-swiper {
     --primary: var(--fs-color-primary, #0f5b5f);
 }
