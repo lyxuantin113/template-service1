@@ -21,7 +21,7 @@ jQuery(document).ready(function ($) {
 });
 
 jQuery(document).ready(function ($) {
-  $(".fs-grid").slick({
+  $(".fs-slick .fs-grid").slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,

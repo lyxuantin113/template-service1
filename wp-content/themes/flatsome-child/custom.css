@@ -207,6 +207,16 @@ h2 {
     padding-bottom: 2.25rem !important;
 }
 
+.py-60 {
+    padding-top: 3.75rem !important;
+    padding-bottom: 3.75rem !important;
+}
+
+.py-80 {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
 /* Padding top */
 .pt-120 {
     padding-top: 7.5rem !important;
@@ -536,9 +546,34 @@ h2 {
     transform: translateX(-50%);
 }
 
+.left--25 {
+    left: 0;
+    transform: translateX(-25%);
+}
+
+.left--10 {
+    left: 0;
+    transform: translateX(-10%);
+}
+
 .right-50 {
     right: 50% !important;
     transform: translateX(-50%);
+}
+
+.right--75 {
+    right: 0;
+    transform: translateX(75%);
+}
+
+.right--25 {
+    right: 0;
+    transform: translateX(25%);
+}
+
+.right--10 {
+    right: 0;
+    transform: translateX(10%);
 }
 
 .bottom-50 {
