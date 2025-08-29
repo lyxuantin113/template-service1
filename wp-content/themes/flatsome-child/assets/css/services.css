@@ -77,7 +77,16 @@
 @media screen and (max-width: 821px) {
 
     /* CSS cho màn hình <= 821px */
+    .about-benefit-left .absolute {
+        position: relative !important;
+    }
 
+    .about-benefit-left .absolute.responsive-img {
+        position: absolute !important;
+        right: 0 !important;
+        left: auto !important;
+        transform: translate(0, 0) !important;
+    }
 }
 
 /* Tablet portrait lớn / Mobile landscape */

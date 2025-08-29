@@ -214,7 +214,10 @@
 @media screen and (max-width: 821px) {
 
     /* CSS cho màn hình <= 821px */
-
+    .banner-title {
+        font-size: 3.5rem !important;
+        line-height: 3.75rem !important;
+    }
 }
 
 /* Tablet portrait lớn / Mobile landscape */
@@ -235,7 +238,10 @@
 @media screen and (max-width: 431px) {
 
     /* CSS cho màn hình <= 431px */
-
+    .banner-title {
+        font-size: 2.25rem !important;
+        line-height: 2.5rem !important;
+    }
 }
 
 /* Mobile portrait lớn (iPhone 6/7/8 Plus) */

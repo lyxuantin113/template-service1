@@ -150,7 +150,7 @@ the_post(); ?>
             ?>
 
             <?php if ($prev || $next) : ?>
-                <nav class="fs-single-nav" aria-label="<?php esc_attr_e('Service navigation', 'flatsome-child'); ?>">
+                <nav class="fs-single-nav sm-flex-1" aria-label="<?php esc_attr_e('Service navigation', 'flatsome-child'); ?>">
                     <?php if ($prev) : ?>
                         <a class="fs-nav fs-nav--prev" href="<?php echo esc_url(get_permalink($prev->ID)); ?>">
                             <span class="fs-nav__arrow" aria-hidden="true">←</span>

@@ -1103,6 +1103,18 @@ h3.title {
     .md-fs-36 {
         font-size: 2.25rem !important;
     }
+
+    .md-left-0 {
+        left: 0 !important;
+    }
+
+    .md-left-5 {
+        left: 5% !important;
+    }
+
+    .md-left-10 {
+        left: 10% !important;
+    }
 }
 
 /* Tablet portrait lớn / Mobile landscape */
@@ -1150,6 +1162,48 @@ h3.title {
 
     .rl-justify-center {
         justify-content: center !important;
+    }
+
+    .rl-py-16 {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+
+    .rl-py-8 {
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+    }
+
+    .rl-py-4 {
+        padding-top: 0.25rem !important;
+        padding-bottom: 0.25rem !important;
+    }
+
+    .rl-px-16 {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .rl-px-8 {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+
+    .rl-px-4 {
+        padding-left: 0.25rem !important;
+        padding-right: 0.25rem !important;
+    }
+
+    .rl-left-0 {
+        left: 0 !important;
+    }
+
+    .rl-left-5 {
+        left: 5% !important;
+    }
+
+    .rl-left-10 {
+        left: 10% !important;
     }
 }
 
@@ -1199,6 +1253,10 @@ h3.title {
         font-size: 2.25rem !important;
     }
 
+    .sm-fs-28 {
+        font-size: 1.75rem !important;
+    }
+
     .sm-flex-row-reverse {
         flex-direction: row-reverse;
     }
@@ -1211,11 +1269,52 @@ h3.title {
         justify-content: center !important;
     }
 
-    /* HEADER */
-    /* .mobile-nav a.nav-top-link {
-        display: none;
-    } */
+    .sm-mb-0 {
+        margin-bottom: 0 !important;
+    }
 
+    .sm-py-16 {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+
+    .sm-py-8 {
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+    }
+
+    .sm-py-4 {
+        padding-top: 0.25rem !important;
+        padding-bottom: 0.25rem !important;
+    }
+
+    .sm-px-16 {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .sm-px-8 {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+
+    .sm-px-4 {
+        padding-left: 0.25rem !important;
+        padding-right: 0.25rem !important;
+    }
+
+
+    .sm-left-0 {
+        left: 0 !important;
+    }
+
+    .sm-left-5 {
+        left: 5% !important;
+    }
+
+    .sm-left-10 {
+        left: 10% !important;
+    }
 
 }
 

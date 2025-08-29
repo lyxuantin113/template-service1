@@ -86,6 +86,14 @@
 @media screen and (max-width: 821px) {
 
     /* CSS cho màn hình <= 821px */
+    .section-explore {
+        background: none !important;
+    }
+
+    .explore-absolute-img {
+        position: relative !important;
+    }
+
 
 }
 

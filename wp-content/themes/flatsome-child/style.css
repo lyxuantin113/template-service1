@@ -17,6 +17,29 @@ Version: 3.0
 }
 
 /* =================== */
+/* ===== Đè CSS ====== */
+/* =================== */
+#footer .icon-box-text a:hover,
+.ux-menu-link--active .ux-menu-link__link,
+.ux-menu-link:hover .ux-menu-link__link {
+    color: var(--fs-color-primary) !important;
+}
+
+#footer .icon-box-text a,
+.ux-menu-link .ux-menu-link__link span {
+    background-image: linear-gradient(to left, var(--fs-color-primary), var(--fs-color-primary));
+    background-repeat: no-repeat;
+    background-size: 0px 1px;
+    background-position: left bottom;
+    transition: 0.5s ease-in-out;
+}
+
+#footer .icon-box-text a:hover,
+.ux-menu-link .ux-menu-link__link:hover span {
+    background-size: 100% 1px;
+}
+
+/* =================== */
 /* ==== Header BAR === */
 /* =================== */
 
